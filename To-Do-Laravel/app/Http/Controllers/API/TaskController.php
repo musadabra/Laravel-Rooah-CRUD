@@ -34,7 +34,7 @@ class TaskController extends Controller
 
         $validator = Validator::make($data, [
             'dueDate' => 'nullable|date',
-            'comment' => 'required|max:255',
+            'comment' => 'max:255',
             'description' => 'required|max:255',
         ]);
 

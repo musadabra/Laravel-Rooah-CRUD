@@ -135,8 +135,10 @@ export default {
         getProjects: function(){
             projectService.getAll().then(
                             Response => {
+                              console.log("-------------------")
+
                               console.log(Response.projects)
-                               this.projects = Response.projects;                               
+                              this.projects = Response.projects;                               
                             }
                         );
         },

@@ -20,8 +20,8 @@ class CreateTaskTable extends Migration
             $table->unsignedBigInteger('project_id');
 
             $table->string('description');
-            $table->date('dueDate');
-            $table->string('comment');
+            $table->date('dueDate')->nullable();
+            $table->string('comment')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users');

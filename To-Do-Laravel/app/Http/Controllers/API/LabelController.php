@@ -31,10 +31,10 @@ class LabelController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-
+        return response(['data' => $request->all()]);
         $validator = Validator::make($data, [
             'name' => 'required|max:255',
-            'description' => 'required|max:255',
+            'description' => 'required|max:555',
         ]);
 
         if ($validator->fails()) {
