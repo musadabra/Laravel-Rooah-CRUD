@@ -18,11 +18,13 @@ function login(email, password) {
         .then(handleResponse)
         .then(user => {
 
+            let id = user.user.id;
             let name = user.user.name;
             let email = user.user.email;
             let token = user.access_token;
 
             let usernew = {
+                id,
                 name,
                 email,
                 token,
@@ -41,11 +43,13 @@ function signup(name, email, password, password_confirmation) {
         .then(handleResponse)
         .then(user => {
 
+            let id = user.user.id;
             let name = user.user.name;
             let email = user.user.email;
             let token = user.access_token;
 
             let usernew = {
+                id,
                 name,
                 email,
                 token,
