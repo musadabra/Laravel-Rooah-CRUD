@@ -1,8 +1,8 @@
 {
-  "name": "todo-app",
+  "name": "Rooah todo-app",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Jeremy Kithome <jeremy.kithome@andela.com>",
+  "description": "From end todo app Vue.js project",
+  "author": "Musa Dabra<Musadabra@gmail.com> Orignal owner: Jeremy Kithome <jeremy.kithome@andela.com>",
   "private": true,
   "scripts": {
     "start": "npm run build && http-server dist",
