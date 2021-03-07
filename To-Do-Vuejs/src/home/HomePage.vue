@@ -116,14 +116,15 @@ export default {
     mounted () {
         this.currentUser = authenticationService.currentUserValue;
         this.userFromApi = authenticationService.currentUserValue.user;
-        this.taskform.user_id = authenticationService.currentUserValue.user.id;
     },
     created(){
         this.showTask();
     },
     methods: {
         onSubmitTask: function(){
-            alert("You");
+            console.log(authenticationService.currentUserValue.user);
+            this.taskform.user_id = authenticationService.currentUserValue.user.id;
+
             let body = this.taskform;
             taskService.createTask(body).then(response => {
                 alert(response.message);

@@ -22,6 +22,8 @@ class CreateTaskTable extends Migration
             $table->string('description');
             $table->date('dueDate')->nullable();
             $table->string('comment')->nullable();
+            $table->boolean('done')->default(0);
+
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users');

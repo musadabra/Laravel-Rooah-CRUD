@@ -18,5 +18,6 @@ class Task extends Model
         "dueDate",
         "description",
         "comment",
+        "done",
     ];
 }
