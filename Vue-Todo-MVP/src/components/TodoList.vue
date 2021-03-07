@@ -40,7 +40,7 @@ export default {
         console.log(error)
         this.errored = true
       })
-      .finally(() => this.loading = false)
+      .finally(() => this.$emit('load-todo'))
 
     },
     deleteTodo(todo) {
@@ -75,8 +75,6 @@ export default {
             this.errored = true
           })
           .finally(() => this.loading = false)
-
-        
       });
 
       
