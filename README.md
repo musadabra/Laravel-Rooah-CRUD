@@ -18,3 +18,29 @@ the full scale product is not completely implemented as time would'nt permit, an
 We have a relational database, three entities and user entity.
 
 ![CamScanner 03-07-2021 18 28_1](https://user-images.githubusercontent.com/20817089/110249763-031d7f80-7f78-11eb-8ee0-da45a9fcabe3.jpg)
+
+## PRIMARY TASK SCREEN SHORTS
+Features:
+<ol>
+<li>Add Task</li>
+<li>Edit</li>
+<li>Delete</li>
+<li>View All</li>
+</ol>
+![Screenshot 2021-03-07 192243](https://user-images.githubusercontent.com/20817089/110250235-86d86b80-7f7a-11eb-8ffa-0f06a78b5fb6.png)
+
+
+## SECOND VERSION 
+Features:
+<ol>
+<li>Creation Projects</li>
+<li>Create Tasks Under a project</li>
+<li>Create label</li>
+<li>Tag a Task with labels</li>
+<li>Filter</li>
+<li>Search</li>
+</ol>
+![Screenshot 2021-03-07 191642](https://user-images.githubusercontent.com/20817089/110250173-40830c80-7f7a-11eb-9fe4-fc0a38d95e29.png)
+
+## RESTFUL API DOC
+
