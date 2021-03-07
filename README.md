@@ -33,6 +33,8 @@ Features:
 ## SECOND VERSION 
 Features:
 <ol>
+<li>User Registration</li>  
+<li>User Authenticatoin using JWT</li>  
 <li>Creation Projects</li>
 <li>Create Tasks Under a project</li>
 <li>Create label</li>
