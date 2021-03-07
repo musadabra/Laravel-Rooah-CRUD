@@ -50,10 +50,9 @@ https://documenter.getpostman.com/view/10491854/Tz5jg1k1
 
 ## DEPLOYMENT
 The Application is Deployed in AWS EC2
-Server application is Apache2
-![image](https://user-images.githubusercontent.com/20817089/110251728-28af8680-7f82-11eb-8ed9-5dce09c60b9f.png)
+Server application is Nginx
+![image](https://user-images.githubusercontent.com/20817089/110256740-cadb6880-7f9a-11eb-8365-8f2085702a08.png)
 
-![image](https://user-images.githubusercontent.com/20817089/110251788-6ca28b80-7f82-11eb-9a09-bde42c60abaa.png)
 
 ### Installed PHP 
 ![image](https://user-images.githubusercontent.com/20817089/110251994-9f00b880-7f83-11eb-8248-5c8dfd5e8ec5.png)
