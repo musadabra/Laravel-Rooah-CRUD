@@ -9,7 +9,7 @@
             </div>
         </nav> -->
 
-    <div class="container-scroller">
+    <div v-if="currentUser" class="container-scroller">
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
@@ -111,6 +111,10 @@
         <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->
+    </div>
+
+    <div v-if="!currentUser">
+      <router-view></router-view>
     </div>
 
     <!-- ADD PROJECT MODAL -->

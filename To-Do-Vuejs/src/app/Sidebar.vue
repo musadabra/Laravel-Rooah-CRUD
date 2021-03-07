@@ -110,10 +110,12 @@ export default {
             labels: []
         };
     },
-    created () {
-        userService.getUser().then(user => this.userFromApi = user);
-        this.getProjects();
-        this.getLabels();
+    mounted () {
+        userService.getUser().then(user => this.userFromApi = user);  
+    },
+    created (){
+       this.getProjects();
+       this.getLabels();
     },
     methods: {
         saveProjects: function(){
@@ -135,9 +137,6 @@ export default {
         getProjects: function(){
             projectService.getAll().then(
                             Response => {
-                              console.log("-------------------")
-
-                              console.log(Response.projects)
                               this.projects = Response.projects;                               
                             }
                         );
@@ -148,7 +147,11 @@ export default {
                                this.labels = Response.Labels;                               
                             }
                         );
-        }
+        },
+        logout () {
+            authenticationService.logout();
+            router.push('/login');
+        },
     }
 };
 </script>
