@@ -61,4 +61,8 @@ Server application is Apache2
 ### Installed MySQL
 ![image](https://user-images.githubusercontent.com/20817089/110252085-f737ba80-7f83-11eb-9d89-35ab660fd855.png)
 
+### Installed Composer
+![image](https://user-images.githubusercontent.com/20817089/110252338-30bcf580-7f85-11eb-9710-5363ad0b23f7.png)
+
+
 
