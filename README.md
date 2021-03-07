@@ -14,5 +14,7 @@ In this repository we have the FRONT END AND BACKEND folders
 the FRONT-END is built with Vue js, the from end is two implementation, one of Minimun viable product and a full product
 the full scale product is not completely implemented as time would'nt permit, and its not the primary task.
 
-#Database model 
+# Database model 
 We have a relational database, three entities and user entity.
+
+![CamScanner 03-07-2021 18 28_1](https://user-images.githubusercontent.com/20817089/110249763-031d7f80-7f78-11eb-8ee0-da45a9fcabe3.jpg)
