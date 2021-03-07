@@ -55,3 +55,10 @@ Server application is Apache2
 
 ![image](https://user-images.githubusercontent.com/20817089/110251788-6ca28b80-7f82-11eb-9a09-bde42c60abaa.png)
 
+### Installed PHP 
+![image](https://user-images.githubusercontent.com/20817089/110251994-9f00b880-7f83-11eb-8248-5c8dfd5e8ec5.png)
+
+### Installed MySQL
+![image](https://user-images.githubusercontent.com/20817089/110252085-f737ba80-7f83-11eb-9d89-35ab660fd855.png)
+
+
