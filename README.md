@@ -47,3 +47,11 @@ Features:
 ## RESTFUL API DOC
 Find documentation in the link below
 https://documenter.getpostman.com/view/10491854/Tz5jg1k1
+
+## DEPLOYMENT
+The Application is Deployed in AWS EC2
+Server application is Apache2
+![image](https://user-images.githubusercontent.com/20817089/110251728-28af8680-7f82-11eb-8ed9-5dce09c60b9f.png)
+
+![image](https://user-images.githubusercontent.com/20817089/110251788-6ca28b80-7f82-11eb-9a09-bde42c60abaa.png)
+
