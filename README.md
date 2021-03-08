@@ -11,7 +11,7 @@ https://github.com/musadabra/Laravel-RESTful-api-Auth-scafold.git
 
 ## REPOSITORY AND SUBFOLDERS
 In this repository we have the FRONT END AND BACKEND folders
-the FRONT-END is built with Vue js, the from end is two implementations, one of Minimun viable product and a full product
+the FRONT-END is built with Vue js, the front end is two implementations( Vue-to-do-MVP, To-Do-vue ), one of Minimun viable product and a full product
 the full scale product is not completely implemented as time would'nt permit, and its not the primary task.
 
 # Database model 
