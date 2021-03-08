@@ -11,8 +11,18 @@ https://github.com/musadabra/Laravel-RESTful-api-Auth-scafold.git
 
 ## REPOSITORY AND SUBFOLDERS
 In this repository we have the FRONT END AND BACKEND folders
-the FRONT-END is built with Vue js, the front end is two implementations( Vue-to-do-MVP, To-Do-vue ), one of Minimun viable product and a full product
+Rhe FRONT-END is built with Vue js, the front end is two implementations( Vue-to-do-MVP, To-Do-vue ), one of Minimun viable product and a full product
 the full scale product is not completely implemented as time would'nt permit, and its not the primary task.
+
+Vue-to-do-MVP repository url
+https://github.com/musadabra/Laravel-Rooah-CRUD/tree/main/Vue-Todo-MVP
+
+To-do-Vuejs repository url
+https://github.com/musadabra/Laravel-Rooah-CRUD/tree/main/To-Do-Vuejs
+
+To-do-laravel (Back-end RESTful Api)
+https://github.com/musadabra/Laravel-Rooah-CRUD/tree/main/To-Do-Laravel
+
 
 # Database model 
 We have a relational database, three entities and user entity.
@@ -62,6 +72,22 @@ Server application is Nginx
 
 ### Installed Composer
 ![image](https://user-images.githubusercontent.com/20817089/110252338-30bcf580-7f85-11eb-9710-5363ad0b23f7.png)
+
+### Installed NPM
+
+### Installed Git on Ubuntu
+
+### Clone Git Repository on AWS ubuntu
+
+### Write .env
+DB Host name
+DB user
+DB password
+
+### Point NGINX IP Config to Larave Serve IP/Port number
+
+### Point NGINX IP Config to Vue Js Service IP/Port number
+
 
 
 
