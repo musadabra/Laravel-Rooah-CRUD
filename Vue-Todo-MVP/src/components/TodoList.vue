@@ -27,7 +27,7 @@ export default {
         }
 
       axios
-      .patch('http://127.0.0.1:8000/api/tasks/'+todo.id, body, {
+      .patch('http://18.197.166.32:8080/api/tasks/'+todo.id, body, {
             headers: {
             "Content-Type": "application/json",
             }
@@ -58,7 +58,7 @@ export default {
         
         // SEND REQUEST FOR DELETE
         axios
-          .delete('http://127.0.0.1:8000/api/tasks/'+todo.id, {
+          .delete('http://18.197.166.32:8080/api/tasks/'+todo.id, {
                 headers: {
                 "Content-Type": "application/json",
                 }
@@ -92,7 +92,7 @@ export default {
         }
 
       axios
-      .put('http://127.0.0.1:8000/api/tasks/'+todo.id, body, {
+      .put('http://18.197.166.32:8080/api/tasks/'+todo.id, body, {
             headers: {
             "Content-Type": "application/json",
             }
