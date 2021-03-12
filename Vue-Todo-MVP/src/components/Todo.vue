@@ -63,6 +63,7 @@
       },
       editTodo(todo) {
         this.$emit('edit-todo', todo);
+        this.isEditing = false;
       },
     },
   };

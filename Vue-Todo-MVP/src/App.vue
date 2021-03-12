@@ -31,7 +31,9 @@ export default {
   methods: {
     createTodo(newTodo) {
       this.todos.push(newTodo);
+      this.loadTodos();
       sweetalert('Success!', 'To-Do created!', 'success');
+
     },
     loadTodos(){
       axios
