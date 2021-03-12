@@ -1,14 +1,22 @@
 <template>
   <div id="app">
     <h1 class="ui dividing centered header">Rooah! Todo App</h1>
-    <div class='ui three column centered grid'>
-      <div class='column'>
-        <todo-list v-on:load-todo="loadTodo" v-bind:todos="todos"></todo-list>
-        <create-todo v-on:create-todo="createTodo"></create-todo>
+    <div class='centered'>
+      <div class='container'>
+        <div class="col-md-12">
+          <div class="col-md-4"></div>
+          <div class="col-md-4 offset-lg-4 col-sm-12">
+            <todo-list v-on:load-todo="loadTodo" v-bind:todos="todos"></todo-list>
+            <create-todo v-on:create-todo="createTodo"></create-todo>
+          </div>
+          <div class="col-md-4"></div>
+            
+        </div>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 import sweetalert from 'sweetalert';
