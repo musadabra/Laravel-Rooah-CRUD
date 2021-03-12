@@ -64,7 +64,7 @@ export default {
 
         //SEND REQUEST
         axios
-          .post("http://127.0.0.1:8000/api/tasks/", body, {
+          .post("http://18.197.166.32:8080/api/tasks/", body, {
             headers: {
               "Content-Type": "application/json",
             },

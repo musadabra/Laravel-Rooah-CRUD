@@ -37,7 +37,7 @@ export default {
     },
     loadTodos(){
       axios
-      .get('http://127.0.0.1:8000/api/tasks')
+      .get('http://18.197.166.32:8080/api/tasks')
       .then(response => {
         this.todos = response.data.Tasks
       })
