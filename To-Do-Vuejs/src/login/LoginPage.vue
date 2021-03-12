@@ -103,7 +103,7 @@ export default {
     created () {
         // redirect to home if already logged in
         if (authenticationService.currentUserValue) { 
-            // console.log(authenticationService.currentUserValue);
+            console.log(authenticationService.currentUserValue);
             return router.push('/');
         }
 

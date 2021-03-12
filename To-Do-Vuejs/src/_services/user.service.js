@@ -20,7 +20,6 @@ function getById(id) {
 }
 
 function getUser() {
-    console.log(requestOptions.get());
     return fetch(`${apiUrl}/user-profile/`, requestOptions.get())
         .then(handleResponse);
 }

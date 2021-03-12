@@ -96,12 +96,12 @@
 </template>
 
 <script>
-import { authenticationService, taskService } from '@/_services';
+import { authenticationService, taskService, userService } from '@/_services';
 
 export default {
     data () {
         return {
-            currentUser: '',
+            currentUser: authenticationService.currentUserValue,
             userFromApi: null,
             taskform: {
                 user_id: '',
@@ -113,11 +113,12 @@ export default {
             tasks: [],
         };
     },
-    mounted () {
-        this.currentUser = authenticationService.currentUserValue;
-        this.userFromApi = authenticationService.currentUserValue.user;
-    },
+    // mounted () {
+    //     this.currentUser = authenticationService.currentUserValue;
+    //     this.userFromApi = authenticationService.currentUserValue.user;
+    // },
     created(){
+        userService.getById(this.currentUser.id).then(user => this.userFromApi = user);
         this.showTask();
     },
     methods: {

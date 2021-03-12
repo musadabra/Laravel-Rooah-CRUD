@@ -38,9 +38,10 @@ Route::group([
     Route::post('/register', [AuthController::class, 'register']);
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::post('/refresh', [AuthController::class, 'refresh']);
-    Route::get('/user-profile', [AuthController::class, 'userProfile']);
+    // Route::get('/user-profile', [AuthController::class, 'userProfile']);
 });
 
+Route::get('auth/user-profile', [AuthController::class, 'userProfile']);
 // PROJECT RESOURCES
 // Route::apiResource('projects', ProjectController::class)->middleware('auth:api');
 Route::apiResource('projects', ProjectController::class);
